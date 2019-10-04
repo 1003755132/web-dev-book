@@ -136,50 +136,50 @@
     </div>
     <div class="right">
 
-      <h3>你可能喜欢的作者</h3>
-      <hr>
-      <div class="row-1">
+        <h3>你可能喜欢的作者</h3>
+        <hr>
+        <div class="row-1">
 
-        <div  class="column-2">
-          <img src="https://facepic.qidian.com/qd_face/349573/a4921/0" class="avatar">
-          <p>唐家三少</p>
-        </div>
+          <div  class="column-2">
+            <img src="https://facepic.qidian.com/qd_face/349573/a4921/0" class="avatar">
+            <p>唐家三少</p>
+          </div>
 
-        <button class="btn-desin1">
-          <i class="iconfont"style="color:rgb(63, 193, 219);;">&#xe6cc;</i>
-          <span class="btn-title"> 关注 </span>
-        </button>
-        <div  class="column-2">
-          <img src="https://facepic.qidian.com/qd_face/349573/a4362096/0" class="avatar">
-          <p>我吃西红柿</p>
-        </div>
+          <button class="btn-desin1">
+            <i class="iconfont"style="color:rgb(63, 193, 219);;">&#xe6cc;</i>
+            <span class="btn-title"> 关注 </span>
+          </button>
+          <div  class="column-2">
+            <img src="https://facepic.qidian.com/qd_face/349573/a4362096/0" class="avatar">
+            <p>我吃西红柿</p>
+          </div>
 
-        <button class="btn-desin1">
-          <i class="iconfont" style="color:rgb(63, 193, 219);;">&#xe6cc;</i>
-          <span class="btn-title"> 关注 </span>
-        </button>
-        <div  class="column-2">
-          <img src="https://img03.sogoucdn.com/app/a/100520093/ca86e620b9e623ff-e7ae36db714776c0-b0158348187351632005e109f7faff29.jpg" class="avatar">
-          <p>呆萌的作者</p>
-        </div>
+          <button class="btn-desin1">
+            <i class="iconfont" style="color:rgb(63, 193, 219);;">&#xe6cc;</i>
+            <span class="btn-title"> 关注 </span>
+          </button>
+          <div  class="column-2">
+            <img src="https://img03.sogoucdn.com/app/a/100520093/ca86e620b9e623ff-e7ae36db714776c0-b0158348187351632005e109f7faff29.jpg" class="avatar">
+            <p>呆萌的作者</p>
+          </div>
 
-        <button class="btn-desin1">
-          <i class="iconfont" style="color:rgb(63, 193, 219);">&#xe6cc;</i>
-          <span class="btn-title"> 关注 </span>
-        </button>
-        <div  class="column-2">
-          <img src="https://facepic.qidian.com/qd_face/349573/a4921/0" class="avatar">
-          <p>唐家YI少</p>
-        </div>
+          <button class="btn-desin1">
+            <i class="iconfont" style="color:rgb(63, 193, 219);">&#xe6cc;</i>
+            <span class="btn-title"> 关注 </span>
+          </button>
+          <div  class="column-2">
+            <img src="https://facepic.qidian.com/qd_face/349573/a4921/0" class="avatar">
+            <p>唐家YI少</p>
+          </div>
 
-        <button class="btn-desin1">
-          <i class="iconfont"style="color:rgb(63, 193, 219);;">&#xe6cc;</i>
-          <span class="btn-title"> 关注 </span>
-        </button>
-        <div  class="column-2">
-          <img src="https://facepic.qidian.com/qd_face/349573/a4921/0" class="avatar">
-          <p>无敌制造</p>
-        </div>
+          <button class="btn-desin1">
+            <i class="iconfont"style="color:rgb(63, 193, 219);;">&#xe6cc;</i>
+            <span class="btn-title"> 关注 </span>
+          </button>
+          <div  class="column-2">
+            <img src="https://facepic.qidian.com/qd_face/349573/a4921/0" class="avatar">
+            <p>无敌制造</p>
+          </div>
 
         <button class="btn-desin1">
           <i class="iconfont"style="color:rgb(63, 193, 219);;">&#xe6cc;</i>

@@ -37,7 +37,7 @@ public class BookDetailServlet extends HttpServlet {
                 req.setAttribute("book", book);
                 resp.setContentType("text/plain;charset=utf-8");
                 resp.getWriter().print(book);
-            req.getRequestDispatcher("/book_detail.jsp").forward(req, resp);
+            req.getRequestDispatcher("/Book.detail.jsp").forward(req, resp);
             }
         }
     }
