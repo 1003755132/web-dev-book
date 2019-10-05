@@ -9,25 +9,21 @@
         <a href="${pageContext.request.contextPath}/index">首页</a>
     </li>
     <li>
-        <a href="#">读书</a>
+        <a href="http://yuedu.163.com/book?pek=1">读书</a>
     </li>
     <li>
-        <a href="#">音乐</a>
+        <a href="https://y.qq.com/">音乐</a>
+    </li>
+
+    <li>
+        <a href="https://www.ximalaya.com/">FM</a>
+    </li>
+
+    <li>
+        <a href="https://www.qidian.com/">更多</a>
     </li>
     <li>
-        <a href="#">小组</a>
-    </li>
-    <li>
-        <a href="#">同城</a>
-    </li>
-    <li>
-        <a href="#">FM</a>
-    </li>
-    <li>
-        <a href="#">时间</a>
-    </li>
-    <li>
-        <a href="#">更多</a>
+        <a href="https://uland.taobao.com/sem/tbsearch?refpid=mm_26632360_8858797_29866178&keyword=一生必读的经典书籍&clk1=9c1064ba4cec8824b612b05c80ad6069&upsid=9c1064ba4cec8824b612b05c80ad6069">淘宝书籍</a>
     </li>
 </ul>
 
