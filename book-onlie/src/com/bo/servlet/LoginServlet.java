@@ -2,9 +2,9 @@
 package com.bo.servlet;
 
 
-import com.bo.entity.Book;
 import com.bo.entity.User;
 import com.bo.service.UserService;
+import com.bo.entity.Book;
 
 import javax.servlet.ServletContext;
 import javax.servlet.ServletException;

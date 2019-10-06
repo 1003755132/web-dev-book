@@ -13,6 +13,22 @@
     <title>图书详情页面</title>
     <link rel="stylesheet" href="${pageContext.request.contextPath}/css/style.css" type="text/css">
     <style type="text/css">
+        .iconfont{
+            font-family:"iconfont" !important;
+            font-size:16px;font-style:normal;
+            -webkit-font-smoothing: antialiased;
+            -webkit-text-stroke-width: 0.2px;
+            -moz-osx-font-smoothing: grayscale;}
+
+        @font-face {
+            font-family: 'iconfont';  /* project id 1437756 */
+            src: url('//at.alicdn.com/t/font_1437756_irlj2z4w7t.eot');
+            src: url('//at.alicdn.com/t/font_1437756_irlj2z4w7t.eot?#iefix') format('embedded-opentype'),
+            url('//at.alicdn.com/t/font_1437756_irlj2z4w7t.woff2') format('woff2'),
+            url('//at.alicdn.com/t/font_1437756_irlj2z4w7t.woff') format('woff'),
+            url('//at.alicdn.com/t/font_1437756_irlj2z4w7t.ttf') format('truetype'),
+            url('//at.alicdn.com/t/font_1437756_irlj2z4w7t.svg#iconfont') format('svg');
+        }
         h2, h3 {
             color: rgb(73, 73, 73);
         }
@@ -35,7 +51,7 @@
         .search-btn {
             width: 35px;
             height: 35px;
-            background-color: rgb(155, 154, 143);
+            background-color: rgb(236, 97, 73);
             display: flex;
             align-items: center;
             justify-content: center;
@@ -78,7 +94,7 @@
     <h2>读书时刻</h2>
     <input type="text" placeholder="书名、作者、ISBN" class="search-input">
     <div class="search-btn">
-        <img src="${pageContext.request.contextPath}/images/search.png" alt="">
+        <i class="iconfont">&#xe600;</i>
     </div>
 </div>
 
@@ -98,53 +114,53 @@
         </div>
         <div class="right">
 
-            <h3>你可能喜欢的作者</h3>
+            <h3>推荐作者</h3>
             <hr>
             <div class="row-1">
 
                 <div  class="column-2">
-                    <img src="https://facepic.qidian.com/qd_face/349573/a4921/0" class="avatar">
-                    <p>唐家三少</p>
+                    <img src="https://upload.jianshu.io/users/upload_avatars/13213889/7314c5cc-ca7f-4542-b914-2c8dffaf324d.jpg?imageMogr2/auto-orient/strip|imageView2/1/w/96/h/96/format/webp" class="avatar">
+                    <p>无限猴子</p>
                 </div>
 
                 <button class="btn-desin1">
-                    <i class="iconfont"style="color:rgb(63, 193, 219);;">&#xe6cc;</i>
+                    <i class="iconfont"style="color:rgb(236, 97, 73);;">&#xe6cc;</i>
                     <span class="btn-title"> 关注 </span>
                 </button>
                 <div  class="column-2">
-                    <img src="https://facepic.qidian.com/qd_face/349573/a4362096/0" class="avatar">
-                    <p>我吃西红柿</p>
+                    <img src="https://upload.jianshu.io/users/upload_avatars/7663825/7c28763e-002b-4e89-8dea-5b8da210ef2c.jpg?imageMogr2/auto-orient/strip|imageView2/1/w/96/h/96/format/webp" class="avatar">
+                    <p>名贵的考拉</p>
                 </div>
 
                 <button class="btn-desin1">
-                    <i class="iconfont" style="color:rgb(63, 193, 219);;">&#xe6cc;</i>
+                    <i class="iconfont" style="color:rgb(236, 97, 73);;">&#xe6cc;</i>
                     <span class="btn-title"> 关注 </span>
                 </button>
                 <div  class="column-2">
-                    <img src="https://img03.sogoucdn.com/app/a/100520093/ca86e620b9e623ff-e7ae36db714776c0-b0158348187351632005e109f7faff29.jpg" class="avatar">
-                    <p>呆萌的作者</p>
+                    <img src="https://upload.jianshu.io/users/upload_avatars/14715425/e0668349-8c75-43db-8a9d-c388e5f00d0d.jpg?imageMogr2/auto-orient/strip|imageView2/1/w/96/h/96/format/webp" class="avatar">
+                    <p>简书首席小管家</p>
                 </div>
 
                 <button class="btn-desin1">
-                    <i class="iconfont" style="color:rgb(63, 193, 219);">&#xe6cc;</i>
+                    <i class="iconfont" style="color:rgb(236, 97, 73);">&#xe6cc;</i>
                     <span class="btn-title"> 关注 </span>
                 </button>
                 <div  class="column-2">
-                    <img src="https://facepic.qidian.com/qd_face/349573/a4921/0" class="avatar">
-                    <p>唐家YI少</p>
+                    <img src="https://upload.jianshu.io/users/upload_avatars/7290998/f64f5ef0-def0-4b26-beb3-b9d88f060ba0.jpg?imageMogr2/auto-orient/strip|imageView2/1/w/96/h/96/format/webp" class="avatar">
+                    <p>念远怀人</p>
                 </div>
 
                 <button class="btn-desin1">
-                    <i class="iconfont"style="color:rgb(63, 193, 219);;">&#xe6cc;</i>
+                    <i class="iconfont"style="color:rgb(236, 97, 73);;">&#xe6cc;</i>
                     <span class="btn-title"> 关注 </span>
                 </button>
                 <div  class="column-2">
-                    <img src="https://facepic.qidian.com/qd_face/349573/a4921/0" class="avatar">
-                    <p>无敌制造</p>
+                    <img src="https://upload.jianshu.io/users/upload_avatars/3343569/6940ee65-036f-4b7a-9935-5915d9b67d14.jpg?imageMogr2/auto-orient/strip|imageView2/1/w/96/h/96/format/webp" class="avatar">
+                    <p>吴晓布</p>
                 </div>
 
                 <button class="btn-desin1">
-                    <i class="iconfont"style="color:rgb(63, 193, 219);;">&#xe6cc;</i>
+                    <i class="iconfont"style="color:rgb(236, 97, 73);;">&#xe6cc;</i>
                     <span class="btn-title"> 关注 </span>
                 </button>
             </div>

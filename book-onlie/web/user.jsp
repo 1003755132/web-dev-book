@@ -108,7 +108,7 @@
             margin: 0 auto;
             display: flex;
             flex-direction: column;
-            background-image: url("http://ww1.sinaimg.cn/large/007YPn7Gly1g7n4h53nh0j31gl0pmqf7.jpg");
+            background-image: url("https://i.hexuexiao.cn/up/0a/e8/19/3c813322eb7f84c83a61a7976b19e80a.jpg");
             background-size: cover;
             height:100%;
         }

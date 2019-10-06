@@ -61,7 +61,7 @@ a:hover {
 
 #top {
     height: 50px;
-    background: linear-gradient(to bottom, rgb(63, 193, 219), rgb(63, 193, 219));
+    background: linear-gradient(to bottom, rgb(236, 97, 73), rgb(236, 97, 73));
     color: #d5d5d5;
     font-size: 14px;
     display: flex;
@@ -123,6 +123,7 @@ footer ul li {
 .column-2 p{
     margin-left: 10px;
     margin-top: -10px;
+    order: -1;
 }
 .btn-title{
     font-family: 宋体;
@@ -130,7 +131,7 @@ footer ul li {
     color:#ffffff;
 }
 .btn-desin1{
-    background-color: rgb(63, 193, 219);
+    background-color: rgb(90, 195, 80);
 
     border:none;
     outline: none;

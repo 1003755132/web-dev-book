@@ -16,7 +16,7 @@
             display: flex;
             align-items: center;
             justify-content: space-between;
-            background-color: rgb(237, 244, 237);
+            background-color: rgb(241, 243, 244);
             height: 80px;
             padding-left: 8%;
             padding-right: 10px;
@@ -27,7 +27,7 @@
             list-style: none;
         }
         .nav li {
-            color: rgb(61, 133, 73);
+            color: rgb(63, 193, 219);
             font-size: 18px;
             margin-right: 20px;
         }
@@ -43,6 +43,13 @@
         }
         .info {
             display: flex;
+
+        }
+        .info-1{
+            background-image: url("http://ww1.sinaimg.cn/large/007YPn7Gly1g7n4h53nh0j31gl0pmqf7.jpg");
+            background-size: cover;
+
+
         }
         .profile {
             width: 80px;
@@ -59,7 +66,7 @@
             height: 240px;
             border: 1px solid #eee;
             border-radius: 5px;
-            background-color: rgb(237, 244, 237);
+            background-color: rgba(241, 243, 244,0.5);
         }
         .info-box .top {
             height: 80%;
@@ -81,14 +88,16 @@
             margin-bottom: 5px;
         }
         .item {
-            height: 80px;
+            height: 40%;
             margin-top: 10px;
             margin-bottom: 10px;
             padding-top: 10px;
             padding-bottom: 10px;
+
         }
         .read {
             border-bottom: 1px solid #eee;
+
         }
         .read a {
             color: rgb(51, 119, 170);
@@ -99,6 +108,9 @@
             margin: 0 auto;
             display: flex;
             flex-direction: column;
+            background-image: url("https://i.hexuexiao.cn/up/0a/e8/19/3c813322eb7f84c83a61a7976b19e80a.jpg");
+            background-size: cover;
+            height:100%;
         }
     </style>
 </head>
@@ -112,26 +124,28 @@
 <div id="top">
     <jsp:include page="top.jsp"/>
 </div>
-
+<div class="info-1">
 <%--浏览区域--%>
 <div class="explore">
     <ul class="nav">
         <li>首页</li>
-        <li>浏览发现</li>
-        <li>话题广场</li>
-        <li>我的豆瓣</li>
+        <li>我的关注</li>
+        <li>我的图书</li>
     </ul>
     <label>
-        <input type="text" placeholder="搜索你感兴趣的内容和人" class="search-input">
+        <input type="text" placeholder="搜索" class="search-input">
     </label>
 </div>
 <br>
 
 <%--页面主题区域--%>
+
 <div class="container">
+
     <div class="row">
         <%--左侧2/3区域--%>
         <div class="col-8">
+
             <div class="info">
                 <img src="images/${user.avatar}" alt="" class="profile">
                 <h2>${user.nickname}</h2>
@@ -139,34 +153,34 @@
             <br>
             <div class="item">
                 <ul class="nav">
-                    <li>我的日记</li>
+                    <li>今日动态</li>
                 </ul>
-                <p>在豆瓣上写日记，记录自己的生活、想法。</p>
+                <br>今天是你的生日 我的中国</br>
+                <br>清晨我放飞一群白鸽</br>
+                <br>为你衔来一枚橄榄叶</br>
+                <br>鸽子在崇山峻岭飞过</br>
+                <br>我们祝福你的生日</br>
+                <br>我的中国</br>
+
+
             </div>
+
+
+
             <div class="item">
                 <ul class="nav">
-                    <li>我的相册</li>
-                </ul>
-                <p>可以有自己的相册来存放照片了。</p>
-            </div>
-            <div class="item">
-                <ul class="nav">
-                    <li>我读</li>
-                </ul>
-                <p>5本想读</p>
-            </div>
-            <div class="item">
-                <ul class="nav">
-                    <li>留言板</li>
+                    <li>你想对祖国母亲说的话</li>
                 </ul>
                 <label>
                     <textarea cols="80" rows="5"></textarea>
                 </label>
                 <div>
-                    <input type="button" value="留言">
+                    <input type="button" value="我想说">
                 </div>
             </div>
+
         </div>
+
 
         <%-- 右侧1/3区域--%>
         <div class="col-4">
@@ -174,41 +188,54 @@
                 <div class="top">
                     <img src="images/${user.avatar}" alt="">
                     <div>
+                        <p>姓名：${user.nickname}</p>
                         <p>常居：${user.address}</p>
                         <p>账号：${user.account}</p>
+
                         <p>${user.joinDate}加入</p>
+
                     </div>
                 </div>
                 <br>
-                <p>${user.nickname}</p>
+
+                <h2>新中国成立70周年</h2>
             </div>
             <br>
             <div class="item">
                 <ul class="nav">
-                    <li>我的广播· · · · · · (全部)</li>
+                    <h2><li>我的收藏</li></h2>
                 </ul>
                 <br>
                 <div class="read">
                     <p><a href="">${user.nickname}</a>想读
-                        <a href="">写给大忙人的Java SE 8</a>
+                        <a href="">中国近代史</a>
                     </p>
-                    <p style="color: #9b9b9b;">2018年1月2日</p>
+                    <p style="color: #9b9b9b;">2019年1月2日</p>
                 </div>
                 <div class="read">
                     <p><a href="">${user.nickname}</a>想读
-                        <a href="">写给大忙人的Java SE 8</a>
+                        <a href="">中华上下五千年</a>
                     </p>
-                    <p style="color: #9b9b9b;">2018年1月2日</p>
+                    <p style="color: #9b9b9b;">2019年1月2日</p>
                 </div>
                 <div class="read">
                     <p><a href="">${user.nickname}</a>想读
-                        <a href="">写给大忙人的Java SE 8</a>
+                        <a href="">红军</a>
                     </p>
-                    <p style="color: #9b9b9b;">2018年1月2日</p>
+                    <p style="color: #9b9b9b;">2019年1月2日</p>
                 </div>
+                <div class="read">
+                    <p><a href="">${user.nickname}</a>想读
+                        <a href="">马克思主义</a>
+                    </p>
+                    <p style="color: #9b9b9b;">2019年1月2日</p>
+                </div>
+
             </div>
         </div>
-    </div>
+
 </div>
+    </div>
+
 </body>
 </html>
